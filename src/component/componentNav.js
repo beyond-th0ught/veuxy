@@ -5,7 +5,7 @@ import {Menu,Mail,MessageSquare,CheckSquare,Calendar,Star,Moon,Search,ShoppingCa
 
 export default function componentNav() {
   return (
-    <div class="flex">
+    <div class="flex justify-between ">
         <div class="flex items-center hover:cursor-pointer">
             <Menu size={22} color='gray' class="mx-2" />
             <Mail size={22} color='gray'  class="mx-2"/>
@@ -14,7 +14,7 @@ export default function componentNav() {
             <Calendar  size={22} color='gray' class="mx-2" />
             <Star size={22} color='orange' class="mx-2" />
         </div>
-        <div class="flex ml-[47%] items-center hover:cursor-pointer ">
+        <div class="flex items-center hover:cursor-pointer ">
             <img class="w-5 h-5 hover:text-[#7367f0]" src={US}  /> 
             <span class="text-gray-500 mx-2 text-center">English</span>
             <Moon size={22} color='gray'  class="mx-2 " />
