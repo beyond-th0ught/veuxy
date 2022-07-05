@@ -65,7 +65,7 @@ export default function componentblog() {
         
     ]
   return (
-    <div>
+    <div class="grid grid-cols-3 gap-1">
         {data.map((val,index)=>{
             return(
                 <div class=" rounded-md flex flex-col">

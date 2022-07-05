@@ -14,8 +14,8 @@ export default function componentblog() {
         <ComponentNav/>
     </div>
         <SubTitle/>
-    <div class="grid grid-cols-3 gap-1">
-    <div class=" rounded-md flex flex-col">
+    <div>
+    {/* <div class=" rounded-md flex flex-col">
     <img class='w-[100%] rounded-md' src={Vuexy1} />
     <div class=" bg-white">
     <div  class="m-3">
@@ -48,7 +48,7 @@ export default function componentblog() {
     </div>
 </div>
     </div>
-    </div>
+    </div> */}
     <Card1/>   
     </div>
     </div>
