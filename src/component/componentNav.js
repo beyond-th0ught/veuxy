@@ -5,6 +5,7 @@ import {Menu,Mail,MessageSquare,CheckSquare,Calendar,Star,Moon,Search,ShoppingCa
 
 export default function componentNav() {
   return (
+    
     <div class="flex justify-between ">
         <div class="flex items-center hover:cursor-pointer">
             <Menu size={22} color='gray' class="mx-2" />

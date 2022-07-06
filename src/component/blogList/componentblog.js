@@ -8,10 +8,10 @@ import SubTitle from '../subTitle'
 
 export default function componentblog() {
   return (
-    <div class="h-[100%] w-[100%]  bg-gray-200">
-    <div class="my-3 mx-4 rounded-md ">
-    <div class="px-3 py-2 h-full w-full bg-white rounded-md  ">
-        <ComponentNav/>
+    <div class="h-[100%] w-[100%]  bg-gray-100">
+    <div class=" mx-4 pt-3  rounded-md h-[100%] ">
+    <div class="px-3 py-2 h-full w-full bg-white rounded-md shadow-md">
+    <ComponentNav/>  
     </div>
         <SubTitle/>
     <div>

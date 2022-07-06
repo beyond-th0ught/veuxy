@@ -65,12 +65,13 @@ export default function componentblog() {
         
     ]
   return (
-    <div class="grid grid-cols-3 gap-1">
+    <div class="grid grid-cols-3 gap-3">
         {data.map((val,index)=>{
             return(
+                
                 <div class=" rounded-md flex flex-col">
-    <img class='w-[100%] rounded-md' src={val.image} />
-    <div class=" bg-white">
+    <img class='w-[100%] rounded-t-md ' src={val.image} />
+    <div class=" bg-white rounded-b-md">
     <div  class="m-3">
     <div class="text-xl text-gray-500 font-medium">
     {val.title}
@@ -90,12 +91,12 @@ export default function componentblog() {
      {val.discription}
     </div>
     <hr/>
-    <div class="my-3 text-sm flex hover:cursor-pointer text-gray-600">
+    <div class="my-3 text-sm flex justify-between hover:cursor-pointer text-gray-600">
         <div class="">
             <img src=''/>
             {val.comment}
         </div>
-        <div class=" ml-36 text-[#7367f0] hover:cursor-pointer ">
+        <div class=" text-[#7367f0] hover:cursor-pointer ">
             Read More
         </div>
     </div>
