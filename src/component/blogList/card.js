@@ -11,6 +11,7 @@ import Vuexy5 from '../../image/vuexy5.jpg'
 import VuexyIcon5 from '../../image/vuexyIcon5.jpg'
 import Vuexy6 from '../../image/vuexy6.jpg'
 import VuexyIcon6 from '../../image/vuexyIcon6.jpg'
+import {MessageSquare} from 'react-feather'
 
 export default function componentblog() {
     const data=[
@@ -65,13 +66,15 @@ export default function componentblog() {
         
     ]
   return (
-    <div class="grid grid-cols-3 gap-3">
+    <div class="grid grid-cols-2 gap-8">
         {data.map((val,index)=>{
             return(
-                
-                <div class=" rounded-md flex flex-col">
-    <img class='w-[100%] rounded-t-md ' src={val.image} />
-    <div class=" bg-white rounded-b-md">
+                <div class="flex justify-center">
+                <div class="rounded-lg shadow-lg bg-white">
+           <a href='#!'>
+    <img class='w-[100%]  ' src={val.image} />
+    </a>
+    <div class=" bg-white ">
     <div  class="m-3">
     <div class="text-xl text-gray-500 font-medium">
     {val.title}
@@ -92,8 +95,9 @@ export default function componentblog() {
     </div>
     <hr/>
     <div class="my-3 text-sm flex justify-between hover:cursor-pointer text-gray-600">
-        <div class="">
-            <img src=''/>
+        <div class=" flex justify-center items-center ">
+            
+            <MessageSquare size={15} class="mr-1 mt-1 "/>
             {val.comment}
         </div>
         <div class=" text-[#7367f0] hover:cursor-pointer ">
@@ -101,6 +105,7 @@ export default function componentblog() {
         </div>
     </div>
 </div>
+    </div>
     </div>
     </div>
             )

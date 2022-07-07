@@ -6,7 +6,7 @@ export default function Component2() {
   return (
     <div class="w-[50%]">
         <form class="w-[100%] p-14 ">
-            <div class="text-3xl  text-gray-700">
+            <div class="text-3xl   text-gray-700">
             Welcome to Vuexy! 👋
             </div>
             <div class="text-md  text-gray-700 mt-4 text-gray-500 text-md">
