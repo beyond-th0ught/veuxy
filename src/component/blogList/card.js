@@ -1,16 +1,5 @@
 import React from 'react'
-import Vuexy1 from '../../image/vuexy1.jpg'
-import VuexyIcon1 from '../../image/vuexyIcon1.jpg'
-import Vuexy2 from '../../image/vuexy2.jpg'
-import VuexyIcon2 from '../../image/vuexyIcon2.jpg'
-import Vuexy3 from '../../image/vuexy3.jpg'
-import VuexyIcon3 from '../../image/vuexyIcon3.jpg'
-import Vuexy4 from '../../image/vuexy4.jpg'
-import VuexyIcon4 from '../../image/vuexyIcon4.jpg'
-import Vuexy5 from '../../image/vuexy5.jpg'
-import VuexyIcon5 from '../../image/vuexyIcon5.jpg'
-import Vuexy6 from '../../image/vuexy6.jpg'
-import VuexyIcon6 from '../../image/vuexyIcon6.jpg'
+
 import {MessageSquare} from 'react-feather'
 
 export default function componentblog() {
