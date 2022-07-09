@@ -1,6 +1,6 @@
 import React from 'react';
-import Component1 from './component/component1.js';
-import Component2 from './component/component2';
+import Component1 from './component/blogList/component1'
+import Component2 from './component/blogList/component2';
 import Main from './main'; 
 
 function App() {

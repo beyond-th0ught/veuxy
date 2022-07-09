@@ -1,6 +1,6 @@
 import React from 'react'
-import BG from '../image/bg.svg'
-import Logo from '../image/logo.svg'
+import BG from '../../image/bg.svg'
+import Logo from '../../image/logo.svg'
 
 
 export default function component1() {

@@ -1,10 +1,11 @@
 import React from 'react'
 import Post from './post'
 import Categories from './categories'
+import { EyeOff } from 'react-feather'
 
 export default function search() {
   return (
-    <div class="w-[50%] ml-8">
+    <div class="w-[60%] ml-8">
         <div class="w-[100%] ">
             <div class="w-[100%]">
                 <input placeholder='Search here' class=" p-1 form-control
@@ -17,6 +18,7 @@ export default function search() {
         text-gray-100
         bg-white bg-clip-padding
         border-solid border-[#7367f0]
+        
         rounded
         transition
         ease-in-out

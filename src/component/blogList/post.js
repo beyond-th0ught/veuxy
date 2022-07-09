@@ -38,7 +38,7 @@ export default function post() {
         return(
             
   <div class="flex flex-row rounded-lg my-2 justify-between  h-[10%] w-[100%]">
-    <img class="mr-4 h-20 w-36 object-cover  rounded-md hover:cursor-pointer" src={val.image} alt="" />
+    <img class="mr-4 h-20  object-cover bg-cover min-w-[40%]  rounded-md hover:cursor-pointer" src={val.image} alt="" />
     <div class=" flex flex-col justify-start bg-gray-50 text-md ">
       <p class="text-gray-500 font-lg hover:cursor-pointer hover:text-[#7367f0]">
       {val.discription}
