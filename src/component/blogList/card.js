@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Data from './data'
 import {MessageSquare} from 'react-feather'
 
 export default function componentblog() {
@@ -56,7 +56,7 @@ export default function componentblog() {
     // ]
   return (
     <div class="grid grid-cols-2 gap-8">
-        {data.map((val,index)=>{
+        {Data.map((val,index)=>{
             return(
     
         <div class="rounded-lg shadow-lg ">

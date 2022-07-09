@@ -5,10 +5,10 @@ import Data from '../blogList/data'
 
 
 export default function Card() {
+    const detail=[1]
+    console.log(detail)
   return (
     <div>
-    {Data.map((val,index)=>{
-        return(
             <div class="flex   w-[100%]">
   <div class="rounded-lg shadow-lg bg-white max-w-[100%] ">
     <a href="#!">
@@ -17,12 +17,12 @@ export default function Card() {
     <div class="p-6">
     <div  class="m-3">
             <div class="text-xl text-gray-500 font-medium">
-            {val.title}
+            {detail.title}
             </div>
             <div class=" my-3 flex items-center">
-                <img class="w-6 h-6 rounded-full" src={val.imageIcon}/>
+                <img class="w-6 h-6 rounded-full" src={detail.imageIcon}/>
                 <code class="text-sm mx-1 text-gray-400">by </code> 
-                <code class="text-sm text-gray-500">{ val.name}</code> 
+                <code class="text-sm text-gray-500">{ detail.name}</code> 
                 <code class="text-sm text-gray-400 ml-1">|Jan 10, 2020</code>
             </div>
             <div class="flex my-3 items-center">
@@ -35,13 +35,13 @@ export default function Card() {
                 </div>
             </div>
                 <div class="my-3 text-md text-gray-500">
-                {val.discription}
+                {detail.discription}
                 </div>
                 <hr/>
                 <div class="my-3 text-sm flex justify-between hover:cursor-pointer text-gray-600">
                     <div class=" flex justify-center items-center ">
                         <MessageSquare size={15} class="mr-1 mt-1 "/>
-                        {val.comment}
+                        {detail.comment}
                     </div>
                 <div class=" text-[#7367f0] hover:cursor-pointer ">
                     Read More
@@ -50,10 +50,7 @@ export default function Card() {
         </div>
     </div>
   </div>
-</div>
-        )
-    })}
-        
+</div>       
     </div>
   )
 }
