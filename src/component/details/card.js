@@ -8,6 +8,9 @@ import Data from '../blogList/data'
 export default function Card() {
   return (
     <div>
+    <div>
+        
+    </div>
     {Data.map(()=>(
         return(
             <div class="flex   w-[100%]">
