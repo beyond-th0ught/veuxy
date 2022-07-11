@@ -1,11 +1,12 @@
 import React from 'react'
 import DetailMain from '../../image/detailMain.jpg'
-import {MessageSquare} from 'react-feather'
+import {MessageSquare, Bookmark, Share2} from 'react-feather'
 import Data from '../blogList/data'
+import Card2 from './card2'
 
 
 export default function Card() {
-    const detail=[1]
+    const detail = Data[0]
     console.log(detail)
   return (
     <div>
@@ -35,16 +36,25 @@ export default function Card() {
                 </div>
             </div>
                 <div class="my-3 text-md text-gray-500">
-                {detail.discription}
+                {detail.about}
                 </div>
-                <hr/>
+                <div>
+                  <Card2/>
+                </div>
+                <hr class="border-b-0 mt-4"></hr>
                 <div class="my-3 text-sm flex justify-between hover:cursor-pointer text-gray-600">
                     <div class=" flex justify-center items-center ">
-                        <MessageSquare size={15} class="mr-1 mt-1 "/>
-                        {detail.comment}
+                      <div class="flex justify-center items-center mr-3">
+                      <MessageSquare color='gray' class="mr-1 mt-1 "/>
+                        19.1k
+                      </div>
+                      <div class="flex justify-center items-center">
+                      <Bookmark color='gray' class="mr-1 mt-1 "/>
+                        139
+                      </div>
                     </div>
                 <div class=" text-[#7367f0] hover:cursor-pointer ">
-                    Read More
+                    <Share2 color='gray'/>
                 </div>
                 </div>
         </div>

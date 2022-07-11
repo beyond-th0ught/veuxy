@@ -5,13 +5,13 @@ import Main from './main';
 
 function App() {
   const signIn = localStorage.getItem('Email')
-  const [data, setdata] = useState([]);
-  const getData = async () => {
-    const datacommig = await axios.get('/getData')
-    setdata(datacommig.data)
-    console.log(datacommig.data)
-  }
-  getData()
+  // const [data, setdata] = useState([]);
+  // const getData = async () => {
+  //   const datacommig = await axios.get('/getData')
+  //   setdata(datacommig.data)
+  //   console.log(datacommig.data)
+  // }
+  // getData()
   return (
    <div >
          {/* {
